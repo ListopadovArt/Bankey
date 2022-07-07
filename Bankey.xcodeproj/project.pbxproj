@@ -18,6 +18,7 @@
 		AF73FC67286F5E5000C43F52 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF73FC66286F5E5000C43F52 /* LoginView.swift */; };
 		AF82232928760EDF004AA4BB /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF82232828760EDF004AA4BB /* UIViewController+Utils.swift */; };
 		AF82232B28760FCA004AA4BB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF82232A28760FCA004AA4BB /* MainViewController.swift */; };
+		AFC676832877650700E0D763 /* AccountSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC676822877650700E0D763 /* AccountSummaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		AF73FC66286F5E5000C43F52 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		AF82232828760EDF004AA4BB /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
 		AF82232A28760FCA004AA4BB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AFC676822877650700E0D763 /* AccountSummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +69,12 @@
 			isa = PBXGroup;
 			children = (
 				AF16C7F3286EFBB8001D858E /* AppDelegate.swift */,
+				AF82232A28760FCA004AA4BB /* MainViewController.swift */,
 				AF73FC65286F5DCB00C43F52 /* Login */,
 				AF2D2DC22871D12C00D52C7D /* Onboarding */,
+				AFC67681287764D000E0D763 /* AccountSummary */,
 				AF4EA31228744E3300CE8932 /* Utils */,
 				AF73FC64286F5C3D00C43F52 /* Files */,
-				AF82232A28760FCA004AA4BB /* MainViewController.swift */,
 			);
 			path = Bankey;
 			sourceTree = "<group>";
@@ -112,6 +115,14 @@
 				AF4EA310287439CE00CE8932 /* DummyViewController.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		AFC67681287764D000E0D763 /* AccountSummary */ = {
+			isa = PBXGroup;
+			children = (
+				AFC676822877650700E0D763 /* AccountSummaryViewController.swift */,
+			);
+			path = AccountSummary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +202,7 @@
 				AF16C7F8286EFBB8001D858E /* LoginViewController.swift in Sources */,
 				AF50A2E32871F1C000172E77 /* OnboardingViewController.swift in Sources */,
 				AF82232B28760FCA004AA4BB /* MainViewController.swift in Sources */,
+				AFC676832877650700E0D763 /* AccountSummaryViewController.swift in Sources */,
 				AF16C7F4286EFBB8001D858E /* AppDelegate.swift in Sources */,
 				AF2D2DC42871D19200D52C7D /* OnboardingContainerViewController.swift in Sources */,
 			);
