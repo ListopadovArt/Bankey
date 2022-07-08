@@ -20,6 +20,7 @@
 		AF73FC67286F5E5000C43F52 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF73FC66286F5E5000C43F52 /* LoginView.swift */; };
 		AF82232928760EDF004AA4BB /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF82232828760EDF004AA4BB /* UIViewController+Utils.swift */; };
 		AF82232B28760FCA004AA4BB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF82232A28760FCA004AA4BB /* MainViewController.swift */; };
+		AFC200B1287869F4009C9F9F /* AccountSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC200B0287869F4009C9F9F /* AccountSummaryCell.swift */; };
 		AFC676832877650700E0D763 /* AccountSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC676822877650700E0D763 /* AccountSummaryViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		AF73FC66286F5E5000C43F52 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		AF82232828760EDF004AA4BB /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
 		AF82232A28760FCA004AA4BB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AFC200B0287869F4009C9F9F /* AccountSummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryCell.swift; sourceTree = "<group>"; };
 		AFC676822877650700E0D763 /* AccountSummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,12 +123,29 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		AFC200AE2878695E009C9F9F /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				AF49B25328776A920036A659 /* AccountSummaryHeaderView.swift */,
+				AF49B25528776ADF0036A659 /* AccountSummaryHeaderView.xib */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		AFC200AF287869BC009C9F9F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AFC200B0287869F4009C9F9F /* AccountSummaryCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		AFC67681287764D000E0D763 /* AccountSummary */ = {
 			isa = PBXGroup;
 			children = (
 				AFC676822877650700E0D763 /* AccountSummaryViewController.swift */,
-				AF49B25328776A920036A659 /* AccountSummaryHeaderView.swift */,
-				AF49B25528776ADF0036A659 /* AccountSummaryHeaderView.xib */,
+				AFC200AE2878695E009C9F9F /* Header */,
+				AFC200AF287869BC009C9F9F /* Cells */,
 			);
 			path = AccountSummary;
 			sourceTree = "<group>";
@@ -208,6 +227,7 @@
 				AF49B25428776A920036A659 /* AccountSummaryHeaderView.swift in Sources */,
 				AF4EA311287439CE00CE8932 /* DummyViewController.swift in Sources */,
 				AF16C7F8286EFBB8001D858E /* LoginViewController.swift in Sources */,
+				AFC200B1287869F4009C9F9F /* AccountSummaryCell.swift in Sources */,
 				AF50A2E32871F1C000172E77 /* OnboardingViewController.swift in Sources */,
 				AF82232B28760FCA004AA4BB /* MainViewController.swift in Sources */,
 				AFC676832877650700E0D763 /* AccountSummaryViewController.swift in Sources */,
