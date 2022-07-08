@@ -52,6 +52,7 @@ struct CurrencyFormatter {
         let formatter = NumberFormatter()
         formatter.numberStyle = .currency
         formatter.usesGroupingSeparator = true
+        formatter.locale = Locale(identifier: "en_US")
         
         if let result = formatter.string(from: dollars as NSNumber) {
             return result
