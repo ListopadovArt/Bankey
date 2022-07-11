@@ -28,6 +28,8 @@
 		AFBB90A42879D14300EB17F8 /* CurrencyFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBB90A32879D14300EB17F8 /* CurrencyFormatterTests.swift */; };
 		AFC200B1287869F4009C9F9F /* AccountSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC200B0287869F4009C9F9F /* AccountSummaryCell.swift */; };
 		AFC676832877650700E0D763 /* AccountSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC676822877650700E0D763 /* AccountSummaryViewController.swift */; };
+		AFF8D071287C122A00E65670 /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF8D070287C122A00E65670 /* Date+Utils.swift */; };
+		AFF8D073287C15F300E65670 /* AccountSummaryViewController+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF8D072287C15F300E65670 /* AccountSummaryViewController+Networking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		AFBB90A32879D14300EB17F8 /* CurrencyFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatterTests.swift; sourceTree = "<group>"; };
 		AFC200B0287869F4009C9F9F /* AccountSummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryCell.swift; sourceTree = "<group>"; };
 		AFC676822877650700E0D763 /* AccountSummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryViewController.swift; sourceTree = "<group>"; };
+		AFF8D070287C122A00E65670 /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
+		AFF8D072287C15F300E65670 /* AccountSummaryViewController+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccountSummaryViewController+Networking.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,7 @@
 				AF4EA31328744E4C00CE8932 /* LocalState.swift */,
 				AF62BA9D2878CC6A00E17129 /* CurrencyFormatter.swift */,
 				AF5D8FF42879F96E0042FFFB /* NSNotificationName.swift */,
+				AFF8D070287C122A00E65670 /* Date+Utils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -197,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				AFC676822877650700E0D763 /* AccountSummaryViewController.swift */,
+				AFF8D072287C15F300E65670 /* AccountSummaryViewController+Networking.swift */,
 				AFC200AE2878695E009C9F9F /* Header */,
 				AFC200AF287869BC009C9F9F /* Cells */,
 			);
@@ -306,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF82232928760EDF004AA4BB /* UIViewController+Utils.swift in Sources */,
+				AFF8D071287C122A00E65670 /* Date+Utils.swift in Sources */,
 				AF73FC67286F5E5000C43F52 /* LoginView.swift in Sources */,
 				AF4EA31428744E4C00CE8932 /* LocalState.swift in Sources */,
 				AF49B25428776A920036A659 /* AccountSummaryHeaderView.swift in Sources */,
@@ -322,6 +329,7 @@
 				AFC676832877650700E0D763 /* AccountSummaryViewController.swift in Sources */,
 				AF16C7F4286EFBB8001D858E /* AppDelegate.swift in Sources */,
 				AF2D2DC42871D19200D52C7D /* OnboardingContainerViewController.swift in Sources */,
+				AFF8D073287C15F300E65670 /* AccountSummaryViewController+Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
