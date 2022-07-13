@@ -27,6 +27,8 @@
 		AF73FC67286F5E5000C43F52 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF73FC66286F5E5000C43F52 /* LoginView.swift */; };
 		AF82232928760EDF004AA4BB /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF82232828760EDF004AA4BB /* UIViewController+Utils.swift */; };
 		AF82232B28760FCA004AA4BB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF82232A28760FCA004AA4BB /* MainViewController.swift */; };
+		AFA77617287F3E1900FA54D8 /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA77616287F3E1900FA54D8 /* ProfileManager.swift */; };
+		AFA7761B287F41C200FA54D8 /* AccountSummaryViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA7761A287F41C200FA54D8 /* AccountSummaryViewControllerTests.swift */; };
 		AFBB90A42879D14300EB17F8 /* CurrencyFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBB90A32879D14300EB17F8 /* CurrencyFormatterTests.swift */; };
 		AFC200B1287869F4009C9F9F /* AccountSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC200B0287869F4009C9F9F /* AccountSummaryCell.swift */; };
 		AFC676832877650700E0D763 /* AccountSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC676822877650700E0D763 /* AccountSummaryViewController.swift */; };
@@ -69,6 +71,8 @@
 		AF73FC66286F5E5000C43F52 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		AF82232828760EDF004AA4BB /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
 		AF82232A28760FCA004AA4BB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AFA77616287F3E1900FA54D8 /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
+		AFA7761A287F41C200FA54D8 /* AccountSummaryViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryViewControllerTests.swift; sourceTree = "<group>"; };
 		AFBB909A2879CD2A00EB17F8 /* BankeyUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankeyUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFBB90A32879D14300EB17F8 /* CurrencyFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatterTests.swift; sourceTree = "<group>"; };
 		AFC200B0287869F4009C9F9F /* AccountSummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryCell.swift; sourceTree = "<group>"; };
@@ -181,6 +185,14 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		AFA77615287F3DDC00FA54D8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				AFA77616287F3E1900FA54D8 /* ProfileManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		AFBB909B2879CD2A00EB17F8 /* BankeyUnitTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,6 +228,7 @@
 				AFF8D072287C15F300E65670 /* AccountSummaryViewController+Networking.swift */,
 				AFC200AE2878695E009C9F9F /* Header */,
 				AFC200AF287869BC009C9F9F /* Cells */,
+				AFA77615287F3DDC00FA54D8 /* Networking */,
 			);
 			path = AccountSummary;
 			sourceTree = "<group>";
@@ -233,6 +246,7 @@
 			children = (
 				AFF8D076287C3D4E00E65670 /* ProfileTests.swift */,
 				AFF8D078287C3DFC00E65670 /* AccountTests.swift */,
+				AFA7761A287F41C200FA54D8 /* AccountSummaryViewControllerTests.swift */,
 			);
 			path = AccountSummary;
 			sourceTree = "<group>";
@@ -342,6 +356,7 @@
 				AF82232928760EDF004AA4BB /* UIViewController+Utils.swift in Sources */,
 				AF381C37287DBCCB00E2A6EC /* SkeletonCell.swift in Sources */,
 				AFF8D071287C122A00E65670 /* Date+Utils.swift in Sources */,
+				AFA77617287F3E1900FA54D8 /* ProfileManager.swift in Sources */,
 				AF73FC67286F5E5000C43F52 /* LoginView.swift in Sources */,
 				AF4EA31428744E4C00CE8932 /* LocalState.swift in Sources */,
 				AF49B25428776A920036A659 /* AccountSummaryHeaderView.swift in Sources */,
@@ -370,6 +385,7 @@
 				AFBB90A42879D14300EB17F8 /* CurrencyFormatterTests.swift in Sources */,
 				AFF8D079287C3DFC00E65670 /* AccountTests.swift in Sources */,
 				AFF8D077287C3D4E00E65670 /* ProfileTests.swift in Sources */,
+				AFA7761B287F41C200FA54D8 /* AccountSummaryViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
